@@ -50,7 +50,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero-section {
-    background: url(''); /* Replace with actual image URL */
+    background: url('https://navodaya.gov.in/nvs/NVS-schools/ASSAM/Hailakandi/images/JNV_Hailakandi_Campus.jpg'); /* Actual image of JNV Hailakandi Campus */
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -79,6 +79,7 @@ nav ul li a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .btn-primary {
@@ -86,9 +87,13 @@ nav ul li a {
     color: #333;
 }
 
-.btn {
-    background-color: #fff;
-    color: #007bff;
+.btn-secondary {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 /* Content Sections */
