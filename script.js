@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const galleryImages = [
-        'https://via.placeholder.com/250/0000FF/FFFFFF?text=Photo+1',
-        'https://via.placeholder.com/250/FF0000/FFFFFF?text=Photo+2',
-        'https://via.placeholder.com/250/008000/FFFFFF?text=Photo+3',
-        'https://via.placeholder.com/250/FFFF00/000000?text=Photo+4',
+        'https://navodaya.gov.in/nvs/NVS-schools/ASSAM/Hailakandi/images/about_us.jpg',
+        'https://navodaya.gov.in/nvs/NVS-schools/ASSAM/Hailakandi/images/photo_gallery/p1.jpg',
+        'https://navodaya.gov.in/nvs/NVS-schools/ASSAM/Hailakandi/images/photo_gallery/p2.jpg',
+        'https://navodaya.gov.in/nvs/NVS-schools/ASSAM/Hailakandi/images/photo_gallery/p3.jpg',
     ];
 
     const newsContainer = document.getElementById('news-container');
@@ -56,5 +56,4 @@ document.addEventListener('DOMContentLoaded', () => {
         img.alt = 'School Event Photo';
         galleryGrid.appendChild(img);
     });
-
 });
